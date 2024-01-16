@@ -1,0 +1,327 @@
+/* Reset code  */
+* {
+    padding: 0;
+    margin: auto;
+}
+
+/* Common styles  and Font family (Mulish) */
+body {
+    width: 1440px;
+    border: 1px solid red;
+    font-family: 'Mulish', sans-serif;
+}
+
+header,
+main {
+    width: 1170px;
+    border: 1px solid red;
+}
+
+/* header section styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.header h3 {
+    margin-left: 15px;
+}
+
+nav {
+    margin-right: -40px;
+}
+
+.nav-title img {
+    max-width: 100%;
+    margin: -10px;
+    margin: -12px;
+    margin-right: 16px;
+}
+
+.nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    margin-right: 44px;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* banner section styles */
+.banner {
+    border: 1px solid red;
+
+}
+
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 82%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.banner-content {
+    color: #FFF;
+    text-align: center;
+
+}
+
+.banner-content h2 {
+    padding: 100px 290px 25px 290px;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-content p {
+    width: 676px;
+    padding: 0px 245px 60px 245px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    width: 70%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    /* padding: 0px 185px 100px 185px; */
+    /* text-align: center; */
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+}
+
+.form input[type="text"],
+select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    color: #FFF;
+    background: #FF5400;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* Popular tour section  styles*/
+.popular-section {
+    margin-top: 100px;
+    border: 1px solid red;
+}
+
+.popular-tour-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.popular-tour-column {
+    width: 50%;
+}
+
+.popular-tour-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0px 0px 25px 0;
+}
+
+.popular-tour-description1 {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 0px 25px 0;
+}
+
+.popular-tour-description2 {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 0px 25px 0;
+}
+
+.popular-tour-container ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style-position: inside;
+    padding: 0px 30px 25px 10px;
+}
+
+.popular-btn {
+    color: #FFF;
+    background: #FF5400;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 35px;
+}
+
+.popular-img {
+    width: 100%;
+}
+
+/* Destination section styles */
+.destination-section {
+    margin-top: 100px;
+    border: 1px solid red;
+
+}
+
+.destination-content {
+    text-align: center;
+
+}
+
+.destination-content h2 {
+    padding: 0px 290px 25px 290px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.destination-content p {
+    width: 643px;
+    padding: 0px 245px 60px 245px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.item-1 {grid-area: Maldives; width: 100%;
+}
+
+.item-2 {
+    grid-area: Indonesia; width: 100%;
+}
+
+.item-3 {
+    grid-area: Srilanka; width: 100%;
+}
+
+.item-4 {
+    grid-area: NorthAmerica; width: 100%;
+}
+
+.item-5 {
+    grid-area: Kashmir; width: 100%;
+}
+
+.item-6 {
+    grid-area: Bangladesh; width: 100%;
+}
+
+.item-7 {
+    grid-area: Bandarban; width: 100%;
+}
+
+.destination-image-grid {
+    display: grid;
+    grid-template-areas:
+        'Maldives Maldives Maldives Indonesia Indonesia Indonesia'
+        'Srilanka Srilanka NorthAmerica NorthAmerica NorthAmerica Kashmir'
+        'Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban';
+    gap: 24px;
+    
+}
+
+.destination-image-grid img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: -40px;
+}
+
+.destination-image-grid h2 {
+        position: relative;
+        top: -130px;
+        text-align: center;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+}
+
+/* Why-choose-us-section styles */
+.why-choose-us-section {
+    margin-top: 100px;
+    border: 1px solid red;
+
+}
+
+.why-choose-us-content {
+    text-align: center;
+
+}
+
+.why-choose-us-content h2 {
+    padding: 0px 290px 25px 290px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.why-choose-us-content p {
+    width: 643px;
+    padding: 0px 245px 60px 245px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+    /* width: 573px; */
+}
+.card{
+    border: 1px solid red;
+    width: 573px;
+    padding: 0px 30px 25px 10px;
+}
