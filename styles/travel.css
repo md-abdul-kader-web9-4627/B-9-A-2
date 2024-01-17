@@ -73,6 +73,9 @@ nav {
     font-size: 18px;
     font-weight: 700;
 }
+#nav-mobile-menu{
+    display: none;
+}
 
 /* banner section styles */
 .banner {
@@ -385,6 +388,11 @@ select {
 
 }
 
+#newsletter-column-id {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
 .newsletter-column {
     width: 50%;
 }
@@ -393,7 +401,7 @@ select {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
-    padding: 20px 0px 10px 35px;
+    padding: 10px 0px 10px 35px;
 }
 
 .newsletter-description {
@@ -401,16 +409,16 @@ select {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 0px 0px 30px 35px;
+    padding: 0px 0px 25px 35px;
     margin-left: 0px;
     width: 350px;
 }
 
 .newsletter-column hr {
-    width: 95%;
+    width: 88%;
     margin-left: 35px;
     background: rgba(19, 19, 24, 0.10);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .newsletter-img {
@@ -427,7 +435,7 @@ select {
 
 .form-1 input[type="text"],
 input[type="email"] {
-    width: 90%;
+    width: 84%;
     padding: 15px;
     border-radius: 8px;
     border: none;
@@ -437,7 +445,7 @@ input[type="email"] {
 }
 
 .form-1-btn {
-    width: 95%;
+    width: 89%;
     padding: 15px;
     border-radius: 8px;
     border: none;
@@ -459,8 +467,8 @@ input[type="email"] {
     width: 300px;
     padding: 20px 0px;
     position: relative;
-    top: -170px;
-    left: 430px;
+    top: -160px;
+    left: 425px;
 
 }
 
@@ -476,7 +484,7 @@ input[type="email"] {
 
 /* Testimonial section  */
 .testimonial-section {
-    margin-top: 100px;
+    padding: 100px 0px;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
     border-radius: 10px;
@@ -528,7 +536,7 @@ footer {
     margin-top: 100px;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .footer-title img {
@@ -582,4 +590,223 @@ footer h2 {
 
 
 
-/* Responsive styles */
+/* Responsive styles for mobile device (600px and down)*/
+
+@media only screen and (max-width: 600px) {
+    header {
+    width: 500px;
+ 
+}
+.header{
+    
+    margin: -10px 0px -10px 0px;
+}
+
+nav {
+    display: none;
+}
+#nav-mobile-menu{
+    display: flex;
+    margin-left: 200px;
+    font-size: 25px;
+
+}
+
+.nav-title img {
+    max-width: 20%;
+    margin-right: 5px;
+}
+
+.nav-title, .nav-title span {
+    font-size: 30px;
+}
+
+    .banner {
+        width: 36%;
+        height: 500px;
+    }
+
+    .banner-content h2 {
+        padding: 32px 65px 10px 65px;
+        font-size: 35px;
+        font-weight: 800;
+    }
+
+    .banner-content p {
+        width: 360px;
+        padding: 0px 15px 25px 15px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .form input[type="text"] {
+        width: 90%;
+    }
+
+    .form select,
+    .form-btn {
+        width: 100%;
+    }
+
+    .popular-section {
+        margin-top: 20px;
+    }
+
+    .popular-tour-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popular-tour-column {
+        width: 45%;
+    }
+
+    .destination-section {
+        margin-top: 20px;
+    }
+
+    .destination-content h2 {
+        font-size: 35px;
+
+    }
+
+    .destination-content p {
+        width: 480px;
+        padding-bottom: 30px;
+    }
+
+    .destination-image-grid {
+        display: grid;
+        grid-template-areas:
+            'Maldives'
+            'Indonesia'
+            'Srilanka'
+            'NorthAmerica'
+            'Kashmir'
+            'Bangladesh'
+            'Bandarban';
+        gap: 16px;
+        width: 45%;
+    }
+
+    .why-choose-us-section {
+        margin-top: 20px;
+    }
+
+    .why-choose-us-content h2 {
+        font-size: 35px;
+    }
+
+    .why-choose-us-content p {
+        width: 480px;
+        padding-bottom: 30px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 40%;
+        gap: 16px;
+    }
+
+
+    .newsletter-section {
+        margin-top: 20px;
+        margin-bottom: -80px;
+    }
+
+    .newsletter-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .newsletter-column {
+        width: 45%;
+    }
+
+    .newsletter-title {
+        font-size: 35px;
+    }
+
+    .newsletter-description {
+        width: 330px;
+    }
+
+    .newsletter-column hr {
+        width: 87%;
+    }
+
+    /* Form-1 Styles */
+    .form-1 {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .form-1 input[type="text"],
+    input[type="email"] {
+        width: 82%;
+        margin-left: 33px;
+    }
+
+    .form-1-btn {
+        width: 87%;
+        margin-left: 33px;
+
+    }
+
+    .newsletter-offer {
+        position: relative;
+        top: -160px;
+        left: 105px;
+
+    }
+
+    .testimonial-section {
+        padding: 50px 0px;
+        width: 45%;
+
+    }
+
+    .testimonial-section h2 {
+        width: 80%;
+        font-size: 20px;
+    }
+
+
+    .testimonial-section p {
+        width: 80%;
+        margin-left: -280px;
+    }
+
+
+    footer {
+        margin-top: 50px;
+
+    }
+
+
+    footer p {
+        width: 35%;
+    }
+
+
+    footer hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 35%;
+
+    }
+
+}
