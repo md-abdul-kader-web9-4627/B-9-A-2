@@ -232,31 +232,39 @@ select {
     line-height: 26px;
 }
 
-.item-1 {grid-area: Maldives; width: 100%;
+.item-1 {
+    grid-area: Maldives;
+    width: 100%;
 }
 
 .item-2 {
-    grid-area: Indonesia; width: 100%;
+    grid-area: Indonesia;
+    width: 100%;
 }
 
 .item-3 {
-    grid-area: Srilanka; width: 100%;
+    grid-area: Srilanka;
+    width: 100%;
 }
 
 .item-4 {
-    grid-area: NorthAmerica; width: 100%;
+    grid-area: NorthAmerica;
+    width: 100%;
 }
 
 .item-5 {
-    grid-area: Kashmir; width: 100%;
+    grid-area: Kashmir;
+    width: 100%;
 }
 
 .item-6 {
-    grid-area: Bangladesh; width: 100%;
+    grid-area: Bangladesh;
+    width: 100%;
 }
 
 .item-7 {
-    grid-area: Bandarban; width: 100%;
+    grid-area: Bandarban;
+    width: 100%;
 }
 
 .destination-image-grid {
@@ -266,7 +274,7 @@ select {
         'Srilanka Srilanka NorthAmerica NorthAmerica NorthAmerica Kashmir'
         'Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban';
     gap: 24px;
-    
+
 }
 
 .destination-image-grid img {
@@ -276,12 +284,12 @@ select {
 }
 
 .destination-image-grid h2 {
-        position: relative;
-        top: -130px;
-        text-align: center;
-        color: #FFF;
-        font-size: 28px;
-        font-weight: 800;
+    position: relative;
+    top: -130px;
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
 }
 
 /* Why-choose-us-section styles */
@@ -312,16 +320,136 @@ select {
     line-height: 26px;
 }
 
-.card-container{
+.card-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-    margin: 0 auto;
+    margin: 0px auto 20px auto;
     /* width: 573px; */
 }
-.card{
+
+.card {
     border: 1px solid red;
     width: 573px;
-    padding: 0px 30px 25px 10px;
+    padding: 30px 30px 30px 30px;
+    /* margin: 0px auto 20px auto; */
+}
+
+.card h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* News letter section styles */
+.newsletter-section {
+    margin-top: 100px;
+    border: 1px solid red;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+    
+}
+
+.newsletter-column {
+    width: 50%;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 20px 0px 30px 30px;
+    /* margin-left: 30px; */
+}
+
+.newsletter-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 0px 30px 30px;
+    /* margin-left: 30px; */
+    /* width: 350px; */
+    /* text-align: left; */
+}
+.newsletter-column hr{
+    width: 95%;
+    margin-left: 20px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 20px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
+
+.newsletter-img {
+    width: 100%;
+    height: 400px;
+}
+
+/* Form-1 Styles */
+.form-1 {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 100px;
+    /* background: rgba(19, 19, 24, 0.05); */
+
+    /* gap: 24px; */
+}
+
+.form-1 input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+  
+    margin-bottom: 20px;
+}
+
+.form-1-btn {
+    width: 95%;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    color: #FFF;
+    background: #FF5400;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 35px;
+
 }
