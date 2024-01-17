@@ -116,8 +116,6 @@ nav {
     width: 70%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    /* padding: 0px 185px 100px 185px; */
-    /* text-align: center; */
     padding: 16px;
     align-items: center;
     gap: 24px;
@@ -174,6 +172,7 @@ select {
     font-weight: 400;
     line-height: 26px;
     padding: 0px 0px 25px 0;
+    text-align: justify;
 }
 
 .popular-tour-description2 {
@@ -182,6 +181,7 @@ select {
     font-weight: 400;
     line-height: 26px;
     padding: 0px 0px 25px 0;
+    text-align: justify;
 }
 
 .popular-tour-container ul li {
@@ -190,7 +190,8 @@ select {
     font-weight: 400;
     line-height: 26px;
     list-style-position: inside;
-    padding: 0px 30px 25px 10px;
+    padding: 0px 30px 10px 10px;
+    text-align: justify;
 }
 
 .popular-btn {
@@ -330,20 +331,19 @@ select {
     align-items: center;
     gap: 24px;
     margin: 0px auto 20px auto;
-    /* width: 573px; */
 }
 
 .card {
     border: 1px solid red;
     width: 573px;
     padding: 30px 30px 30px 30px;
-    /* margin: 0px auto 20px auto; */
 }
 
 .card h2 {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+    margin: 20px 0;
 }
 
 .card p {
@@ -450,14 +450,36 @@ input[type="email"] {
 
 }
 
+.newsletter-offer {
+    transform: rotate(-19.628deg);
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    border-radius: 16px;
+    width: 300px;
+    padding: 20px 0px;
+    position: relative;
+    top: -170px;
+    left: 430px;
+
+}
+
+.newsletter-offer h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.newsletter-offer h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
 /* Testimonial section  */
 .testimonial-section {
     margin-top: 100px;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
     border-radius: 10px;
-
-
 }
 
 .testimonial-section h2 {
@@ -469,7 +491,6 @@ input[type="email"] {
     font-weight: 800;
     padding: 10px 30px;
     margin-bottom: 20px;
-    /* padding-bottom: 20px; */
 }
 
 .testimonial-section img {
@@ -480,27 +501,25 @@ input[type="email"] {
     margin-bottom: 20px;
 
 }
-.rating{
+
+.rating {
     margin-bottom: 20px;
 
 }
 
 .testimonial-section p {
-    /* width: 769px; */
     padding: 0px 335px 30px 335px;
     color: #5A5A5D;
     font-size: 25px;
     font-weight: 400;
     line-height: 26px;
-    /* margin-left: -100px; */
 }
 
 .testimonial-section h3 {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
-    text-decoration:overline;
-    /* padding: 10px 0px 10px 35px; */
+    text-decoration: overline;
 }
 
 
@@ -534,13 +553,11 @@ footer {
 }
 
 footer p {
-    /* width: 769px; */
     padding: 0px 335px 30px 335px;
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* margin-left: -100px; */
 }
 
 /* Social media icon styles */
@@ -548,7 +565,6 @@ footer p {
     margin-right: 30px;
     font-size: 20px;
     color: #131318;
-    /* margin-bottom: 300px; */
 }
 
 footer hr {
@@ -562,5 +578,8 @@ footer h2 {
     color: #131318;
     font-size: 16px;
     font-weight: 300;
-    /* padding-bottom: 10px; */
 }
+
+
+
+/* Responsive styles */
