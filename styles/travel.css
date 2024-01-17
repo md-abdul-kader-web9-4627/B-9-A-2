@@ -11,6 +11,10 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+footer {
+    font-family: 'Inter', sans-serif;
+}
+
 header,
 main {
     width: 1170px;
@@ -378,7 +382,7 @@ select {
     justify-content: space-between;
     align-items: center;
     gap: 65px;
-    
+
 }
 
 .newsletter-column {
@@ -389,8 +393,7 @@ select {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
-    padding: 20px 0px 30px 30px;
-    /* margin-left: 30px; */
+    padding: 20px 0px 10px 35px;
 }
 
 .newsletter-description {
@@ -398,23 +401,20 @@ select {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 0px 0px 30px 30px;
-    /* margin-left: 30px; */
-    /* width: 350px; */
-    /* text-align: left; */
+    padding: 0px 0px 30px 35px;
+    margin-left: 0px;
+    width: 350px;
 }
-.newsletter-column hr{
+
+.newsletter-column hr {
     width: 95%;
-    margin-left: 20px;
+    margin-left: 35px;
     background: rgba(19, 19, 24, 0.10);
     margin-bottom: 20px;
-    /* margin: 0 auto; */
-    /* text-align: center; */
 }
 
 .newsletter-img {
     width: 100%;
-    height: 400px;
 }
 
 /* Form-1 Styles */
@@ -423,10 +423,6 @@ select {
     width: 100%;
     border-radius: 8px;
     padding: 16px;
-    margin-bottom: 100px;
-    /* background: rgba(19, 19, 24, 0.05); */
-
-    /* gap: 24px; */
 }
 
 .form-1 input[type="text"],
@@ -436,7 +432,7 @@ input[type="email"] {
     border-radius: 8px;
     border: none;
     background: rgba(19, 19, 24, 0.05);
-  
+    margin-left: 15px;
     margin-bottom: 20px;
 }
 
@@ -450,6 +446,121 @@ input[type="email"] {
     background: #FF5400;
     font-size: 16px;
     font-weight: 700;
-    padding: 15px 35px;
+    margin-left: 15px;
 
+}
+
+/* Testimonial section  */
+.testimonial-section {
+    margin-top: 100px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 10px;
+
+
+}
+
+.testimonial-section h2 {
+    color: #FFF;
+    background-color: #FF5400;
+    width: 50%;
+    border-radius: 0px 50px 0px 50px;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.testimonial-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #FF5400;
+    margin-bottom: 20px;
+
+}
+.rating{
+    margin-bottom: 20px;
+
+}
+
+.testimonial-section p {
+    /* width: 769px; */
+    padding: 0px 335px 30px 335px;
+    color: #5A5A5D;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    /* margin-left: -100px; */
+}
+
+.testimonial-section h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration:overline;
+    /* padding: 10px 0px 10px 35px; */
+}
+
+
+/* Footer section styles */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0px;
+}
+
+.footer-title img {
+    max-width: 100%;
+    margin: -10px;
+    margin: -12px;
+    margin-right: 16px;
+}
+
+.footer-title {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.footer-title span {
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+footer p {
+    /* width: 769px; */
+    padding: 0px 335px 30px 335px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* margin-left: -100px; */
+}
+
+/* Social media icon styles */
+.social-media a {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #131318;
+    /* margin-bottom: 300px; */
+}
+
+footer hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+footer h2 {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    /* padding-bottom: 10px; */
 }
